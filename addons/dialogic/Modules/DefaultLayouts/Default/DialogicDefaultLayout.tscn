@@ -344,10 +344,10 @@ mouse_filter = 2
 
 [node name="Animations" type="AnimationPlayer" parent="DefaultStyle"]
 unique_name_in_owner = true
-autoplay = "RESET"
 libraries = {
 "": SubResource("AnimationLibrary_c14kh")
 }
+autoplay = "RESET"
 script = ExtResource("16_07l6b")
 
 [node name="DialogicTextAnchor" type="Control" parent="DefaultStyle"]
