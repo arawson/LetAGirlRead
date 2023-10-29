@@ -1,0 +1,49 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "casual neutral",
+"description": "She really should have been left alone...",
+"display_name": "Ayaka",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(0, 0),
+"portraits": {
+"casual neutral": {
+"export_overrides": {
+"image": "\"res://characters/KUUDERE_LisadiKaprio/HEAD UP/casual/neutral.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"casual pervert": {
+"export_overrides": {
+"image": "\"res://characters/KUUDERE_LisadiKaprio/HEAD UP/casual/pervert.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"casual pissed": {
+"export_overrides": {
+"image": "\"res://characters/KUUDERE_LisadiKaprio/HEAD UP/casual/pissed.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 1.0
+}

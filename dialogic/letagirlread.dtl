@@ -1,0 +1,28 @@
+[background arg="res://backgrounds/school.png" fade="0.0"]
+It's the end of the semester.
+No more finals.
+Time to rest and recuperate for the next semester.
+join player 1
+player (default): (Finals are over. What am I gonna do?)
+- Go home and rest.
+	set {TestGroup.AfterSchoolOption} = "rest"
+- Go home and flop down on my bed and snooze, maybe until the end of time.
+	set {TestGroup.AfterSchoolOption} = "snooze"
+- Go home and crash on the couch and wake up an indeterminate number of hours later.
+	set {TestGroup.AfterSchoolOption} = "crash"
+player: (Fuck it.)
+player: (I'm too tired to do anything else, I'll figure out what I want to do later.)
+leave player
+And so our hero returns home to rest and make his plans for break some other time.
+if {TestGroup.AfterSchoolOption} == "rest":
+	[background arg="res://backgrounds/Kitchen_Night.png" fade="0.0"]
+elif {TestGroup.AfterSchoolOption} == "snooze":
+	[background arg="res://backgrounds/Bedroom_Night_Dark.png" fade="0.0"]
+elif {TestGroup.AfterSchoolOption} == "crash":
+	[background arg="res://backgrounds/Livingroom_Dark.png" fade="0.0"]
+else:
+	[background fade="0.0"]
+[background arg="res://backgrounds/mountains.png" fade="0.0"]
+player (default): What on Earth is that? Floating dialog boxes?
+player: What has the world come to when dialog boxes are just floating in free space?\
+Doesn't anyone clean up after themselves any more?

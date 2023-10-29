@@ -1,0 +1,19 @@
+
+Repo Must be Privated!
+
+Dialogic Plugin: https://github.com/coppolaemilio/dialogic (MIT)
+Girl: https://opengameart.org/content/kuudere-visual-novel-sprite (CC BY-4.0)
+Mountain at Dusk Background: https://opengameart.org/content/mountain-at-dusk-background (CC0/Public Domain)
+    [I manually composited this into a single image background.]
+Industrial Parallax Background: https://opengameart.org/content/industrial-parallax-background (CC0/Public domain)
+    [I manually composited this into a single image background.]
+Pixel UI Theme: https://thowsenmedia.itch.io/pixel-ui-theme-for-godot (Commercial and non-commercial output projects only ie NO REDISTRIBUTION)
+    I might not actually need this one...
+Book Icon: https://opengameart.org/content/free-game-items-pack-2 (CC-BY 3.0)
+Mustafa Character: https://opengameart.org/content/male-sprite-for-visual-novels (CCY BY 4.0)
+    [I changed this into a silhouette]
+Kenney Godot Splash: https://github.com/KenneyNL/Godot-SplashScreens (CC BY 4.0)
+Anime School Background: https://opengameart.org/content/anime-school-background (CC BY 3.0)
+    [I downscaled and cropped this to fit the resolution of the other backgrounds.]
+Anime Backgrounds: https://noranekogames.itch.io/yumebackground (Custom License, No Redistribution Except in Final Product + some other restrictions)
+    [I downscaled this to fit the resolution of the other backgrounds.]
