@@ -23,7 +23,10 @@ elif {TestGroup.AfterSchoolOption} == "crash":
 else:
 	[background fade="0.0"]
 An indeterminate number of hours later.
-join  1
+join player 1
+player: (Shit. I didn't mean to fall asleep so sson, now it's evening and I'm wide awake.)
+player: (I guess I'll go for a walk and think over what I want to  do with my break.)
+leave player
 [background arg="res://backgrounds/mountains.png" fade="0.0"]
 player (default): What on Earth is that? Floating dialog boxes?
 player: What has the world come to when dialog boxes are just floating in free space?\
