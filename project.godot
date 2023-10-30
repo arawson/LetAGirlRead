@@ -26,7 +26,8 @@ Dialogic="*res://addons/dialogic/Other/DialogicGameHandler.gd"
 glossary/default_case_sensitive=true
 variables={
 "TestGroup": {
-"AfterSchoolOption": "Nothing"
+"AfterSchoolOption": "Nothing",
+"DeathOption": "Nothing"
 }
 }
 text/letter_speed=0.01

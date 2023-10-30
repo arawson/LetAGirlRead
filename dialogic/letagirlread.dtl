@@ -1,8 +1,9 @@
 [background arg="res://backgrounds/school.png" fade="0.0"]
+[signal arg="test"]
 It's the end of the semester.
 No more finals.
 Time to rest and recuperate for the next semester.
-join player 1
+join player 0
 player (default): (Finals are over. What am I gonna do?)
 - Go home and rest.
 	set {TestGroup.AfterSchoolOption} = "rest"
@@ -23,11 +24,42 @@ elif {TestGroup.AfterSchoolOption} == "crash":
 else:
 	[background fade="0.0"]
 An indeterminate number of hours later.
-join player 1
-player: (Shit. I didn't mean to fall asleep so sson, now it's evening and I'm wide awake.)
+join player 0
+player: (Shit. I didn't mean to fall asleep so soon, now it's evening and I'm wide awake.)
 player: (I guess I'll go for a walk and think over what I want to  do with my break.)
 leave player
 [background arg="res://backgrounds/mountains.png" fade="0.0"]
-player (default): What on Earth is that? Floating dialog boxes?
-player: What has the world come to when dialog boxes are just floating in free space?\
-Doesn't anyone clean up after themselves any more?
+join player 0
+join ayaka (casual neutral reading) 4
+player: HWHAT?
+player: a GORL?
+- Leave her alone.
+	set {TestGroup.DeathOption} = "Nothing"
+	You keep on walking, knowing that nothing good will come of bothering a creepy girl reading a book on occultism in the woods.
+	An Ending\: Minding Your Own Business
+	[end_timeline]
+- Go NUTS!
+	set {TestGroup.DeathOption} = "Death"
+	player: *sharply inhales*
+	player: Hey BB u wan som fuk?
+	player: I brought you blue.
+	ayaka (casual pissed): Huh?
+	ayaka (casual pervert): How did you know blue is my favorite color?
+	ayaka: Let's take this somewhere more private.
+	player: (Hell yeah I can't believe it, it's been so long since I got any.)
+	leave ayaka
+	leave player
+	[background arg="res://backgrounds/industrial.png" fade="0.0"]
+	join ayaka 0
+	join player 4
+	You followed her to a more "private place". But something doesn't seem quite right.
+	player: What's that you have?
+	ayaka: ...
+	ayaka (casual pervert): A knife!
+	player: No!
+	She plunges the knife into your rib cage before you could even react.
+	[signal arg="knife"]
+	The light fades from the world and you die.
+	leave player
+	ayaka: Finally, a sacrifice! I've been meaning to try out this new spell i learned for months.
+	[end_timeline]
