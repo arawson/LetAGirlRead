@@ -12,7 +12,7 @@ config_version=5
 
 config/name="LetAGirlRead"
 config/description="You really should have let the girl read..."
-run/main_scene="res://dialogic_player.tscn"
+run/main_scene="res://menu.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 boot_splash/image="res://splatter.png"
 config/icon="res://icons/game_items_pack_2_free/PNG/128px/book.png"
@@ -55,13 +55,18 @@ layout/styles={
 }
 layout/default_style="Default"
 
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
 
 [gui]
 
-theme/custom="res://pixel_ui_theme/PixelTheme_paper.tres"
+theme/custom="res://pixel_ui_theme/PixelTheme.tres"
 
 [input]
 
@@ -77,5 +82,6 @@ dialogic_default_action={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"

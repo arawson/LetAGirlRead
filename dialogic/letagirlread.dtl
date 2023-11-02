@@ -59,7 +59,7 @@ player: a GORL?
 	player: No!
 	She plunges the knife into your rib cage before you could even react.
 	[signal arg="knife"]
-	The light fades from the world and you die.
+	Light fades from the world and you die.
 	leave player
 	ayaka: Finally, a sacrifice! I've been meaning to try out this new spell i learned for months.
 	[end_timeline]
