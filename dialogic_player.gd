@@ -11,6 +11,7 @@ func _ready():
 func _on_dialogic_timeline_ended():
 	$Icon.visible = true
 	print(Dialogic.VAR.TestGroup.AfterSchoolOption)
+	get_tree().change_scene_to_file("res://menu.tscn")
 
 
 func _on_dialogic_text_signal(text: String):
